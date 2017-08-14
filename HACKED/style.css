@@ -1,0 +1,41 @@
+* {
+	font-family: 'Playfair Display', cursive;
+}
+
+html {
+	height: 100%;
+}
+
+.hacked-body {
+	background: linear-gradient(to bottom right, green, red);
+}
+
+.login-list {
+	list-style-type: none;
+	padding-left: 0;
+	padding-top: 10px;
+	width: 300px;
+}
+
+.login-form {
+	width: 300px;
+	border: 3px dotted black;
+	border-radius: 20px;
+
+}
+.move-left {
+	padding-left: 15px;
+}
+
+#hacked-header {
+	color: crimson;
+}
+
+#pass-word {
+	position: element(#user-name);
+	transform: translateX(1px);
+}
+
+#main-header {
+	text-decoration: underline;
+}
